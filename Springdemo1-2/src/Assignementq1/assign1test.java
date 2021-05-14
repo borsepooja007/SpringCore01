@@ -16,8 +16,8 @@ class assign1test {
 	@Test
 	void test() {
 	
-		Addresses ada=new Addresses("yallama mandir","solapur","maharshtra", "413005", "india");
-		Customer cu=new Customer(1,"Navin","9579118286",ada);
+		Addresses d=new Addresses("NH6","Jalgaon","maharshtra", "987650", "India");
+		Customer c=new Customer(1,"Siya","8569741232",d);
 		
 		a.add("Navin");
 		a.add("9579118286");
@@ -29,7 +29,7 @@ class assign1test {
 	
 		
 		
-	Object navin=cu;
+	Object navin=c;
 	
 	b=(ArrayList)navin;
 	
