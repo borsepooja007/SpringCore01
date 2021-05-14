@@ -9,32 +9,32 @@
 
        <bean id="questions" class="Assignment2.Questions">
        
-         <property name="questionid" value="2"></property>    
-         <property name="Question" value="What is the meaning of ipl"></property>
+         <property name="questionid" value="7"></property>    
+         <property name="Question" value="Cracking UPSC"></property>
          <property name="answers" ref="collection3"></property>
          
        
        </bean>
           
     <util:list id="collection1" value-type="java.lang.String">   
-        <value>india ka festival</value>
-        <value>biggest leauge</value>
-        <value>indain premeiur league</value>
+        <value>india ka top exam</value>
+        <value>biggest achievement</value>
+        <value>indain Proud</value>
     </util:list>
        
          
          <util:map id="collection2" map-class="java.util.HashMap" key-type="java.lang.Integer" value-type="java.lang.String">
          
-         <entry key="1" value="ipl is good"></entry>
-         <entry key="2" value="most entertain"></entry>
+         <entry key="1" value="indias culture"></entry>
+         <entry key="2" value="most prestigeous"></entry>
          </util:map>
   
    
        
          <util:set id="collection3" value-type="java.lang.String">
          
-          <value>om</value>
-          <value>pavan</value>
+          <value>nivav</value>
+          <value>mira</value>
          
          </util:set>
 
