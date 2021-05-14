@@ -8,7 +8,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		
-		ApplicationContext context12= new ClassPathXmlApplicationContext("Navin.xml");
+		ApplicationContext context12= new ClassPathXmlApplicationContext("Assign.xml");
 		
 		Customer ad=(Customer) context12.getBean("customer");
 		
