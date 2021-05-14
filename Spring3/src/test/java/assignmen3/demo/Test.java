@@ -27,7 +27,7 @@ public class navinTest {
 		String actual=cust.getCustName();
 		
 		
-		assertEquals("Navin", actual);
+		assertEquals("Siya", actual);
 
 		
 	}
