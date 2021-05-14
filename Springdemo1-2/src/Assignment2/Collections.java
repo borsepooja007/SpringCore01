@@ -5,19 +5,19 @@ import java.util.List;
 
 public class Collections {
 	
-	List<String>navin=new ArrayList();
+	List<String>t=new ArrayList();
 
-	public List<String> getNavin() {
-		return navin;
+	public List<String> gett() {
+		return t;
 	}
 
-	public void setNavin(List<String> navin) {
-		this.navin = navin;
+	public void sett(List<String> t) {
+		this.t = t;
 	}
 
 	@Override
 	public String toString() {
-		return "Collections [navin=" + navin + "]";
+		return "Collections [list=" + t + "]";
 	}
 
 	
