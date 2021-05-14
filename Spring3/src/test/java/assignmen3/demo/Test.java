@@ -16,7 +16,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@ContextConfiguration(locations="/Navin.xml")
+@ContextConfiguration(locations="/Bank.xml")
 public class navinTest {
     @Autowired
 	Customer cust;
