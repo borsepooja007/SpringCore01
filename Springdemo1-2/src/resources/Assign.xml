@@ -14,10 +14,10 @@
 
      <bean id="address" class="Assignementq1.Addresses">
      
-        <constructor-arg value="yallama mandir"> </constructor-arg>
-        <constructor-arg  value="solapur"></constructor-arg>
+        <constructor-arg value="NH6"> </constructor-arg>
+        <constructor-arg  value="Jalgaon"></constructor-arg>
         <constructor-arg value="maharshtra"></constructor-arg>
-        <constructor-arg value="423005"></constructor-arg>
+        <constructor-arg value="89562"></constructor-arg>
         <constructor-arg value="india"></constructor-arg>
      
      </bean>
@@ -26,8 +26,8 @@
      
      
       <constructor-arg value="1"> </constructor-arg>
-        <constructor-arg  value="Navin"></constructor-arg>
-        <constructor-arg  value="9579118286"></constructor-arg>
+        <constructor-arg  value="siya"></constructor-arg>
+        <constructor-arg  value="856974123"></constructor-arg>
         <constructor-arg ref="address"></constructor-arg>
         
      
