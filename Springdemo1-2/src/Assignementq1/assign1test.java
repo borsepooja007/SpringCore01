@@ -19,19 +19,19 @@ class assign1test {
 		Addresses d=new Addresses("NH6","Jalgaon","maharshtra", "987650", "India");
 		Customer c=new Customer(1,"Siya","8569741232",d);
 		
-		a.add("Navin");
-		a.add("9579118286");
-		a.add("yallama mandir");
-		a.add("solapur");
+		a.add("siya");
+		a.add("8569741232");
+		a.add("NH6 ");
+		a.add("Jalgaon");
 		a.add("maharshtra");
-		a.add("413005");
+		a.add("987650");
 		a.add("india");
 	
 		
 		
-	Object navin=c;
+	Object sim=c;
 	
-	b=(ArrayList)navin;
+	b=(ArrayList)sim;
 	
 	    assertEquals(b, a);
 	}
