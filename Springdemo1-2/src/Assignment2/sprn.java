@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(locations="/applicationContext.xml")
-public class Navin23 {
+public class sprn {
 
 	@Autowired
 	Questions ques;
